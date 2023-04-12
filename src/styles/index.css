@@ -1,0 +1,14 @@
+.clock{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgba(128, 255, 0, .6);
+  text-align: center;
+  justify-content: center;
+  text-shadow: 2px 2px rgb(0, 191, 83),3px 3px rgb(69, 247, 146)
+  
+}
+
+body{
+  justify-content: center;
+
+  background-color: black;
+}

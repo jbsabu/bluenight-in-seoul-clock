@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+:root{
+  --main-color:white;
+}
+
+*, *:after,*:before{
+  margin:0;
+  padding:0;
+  box-sizing:inherit;
+}
+
+body{
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/Untitled.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+  h1{
+
+    margin:0;
+    padding:0;
+  }
+
+  .css-selector {
+    background: linear-gradient(250deg, #00ffbd, #ff0000);
+    background-size: 400% 400%;
+    animation: AnimationName 1s ease infinite;
+}
+
+/* @-webkit-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+} */
+@keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+
+  .main-container:hover{
+    background:  linear-gradient( 89.7deg, rgba(223,0,0,1) 2.7%, rgba(214,91,0,1) 15.1%, rgba(233,245,0,1) 29.5%, rgba(23,255,17,1) 45.8%, rgba(29,255,255,1) 61.5%, rgba(5,17,255,1) 76.4%, rgba(202,0,253,1) 92.4% );
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease infinite;
+    filter: blur(.5px);
+    opacity: 1;
+  }
+
+  .main-container{
+    opacity: .5;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--main-color);
+    font-weight: 400;
+    border: 1px linear-gradient(90deg, rgba(65,0,12,1) 0%, rgba(109,26,200,1) 35%, rgba(255,139,0,1) 100%);
+    text-align: center;
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 13px;
+    animation: AnimationName .1s ease infinite;
+
+    background-image: url(../images/original.avif);
+    background: rgb(65,0,12);
+    background: linear-gradient(90deg, rgba(65,0,12,1) 0%, rgba(109,26,200,1) 35%, rgba(255,139,0,1) 100%);
+    -webkit-box-shadow: inset 0px -1px 50px 4px #7A5FFF; 
+    box-shadow: inset 0px -1px 50px 4px #7A5FFF, 0px -1px 50px 4px linear-gradient(90deg, rgba(65,0,12,1) 0%, rgba(109,26,200,1) 35%, rgba(255,139,0,1) 100%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+;
+  }
